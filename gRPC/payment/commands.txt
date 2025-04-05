@@ -1,2 +1,6 @@
+# used to regenerate the protocol buffers
 python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. payment.proto
 
+# 1. run python payment_server.py
+# 2. run python payment_client.py
+# 3. run python payment_client_test.py
